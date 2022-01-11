@@ -2,3 +2,13 @@ vim
 man
 htop
 vi
+base-devel
+awesome-terminal-fonts
+xmonad
+xmonad-contrib
+alacritty
+alacritty-themes
+arandr
+bat
+brave-bin
+
