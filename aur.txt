@@ -1,3 +1,9 @@
 alacritty-themes
 steam
-
+sardi-icons
+nordvpn-bin
+onlyoffice-bin
+optimus-manger
+proton-community-updater
+spotify
+timeshift

@@ -25,3 +25,14 @@ xmonad-utils
 fish
 exa
 xorg-apps
+lxappearance
+bluez
+bluez-utils
+blueberry
+dmenu
+openssh
+piper
+ripgrep
+starship
+thuna-archive-plugin
+
