@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-pacman -Syyu
-pacman -S --needed - < pkglist.txt
+#sudo pacman -Syyu
+sudo pacman -S --needed - < pkglist.txt
 
 mkdir ~/Documents ~/Pictures ~/Downloads ~/Desktop ~/Videos ~/.config/alacritty
 
