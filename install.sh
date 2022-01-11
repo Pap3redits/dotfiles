@@ -8,7 +8,7 @@ mkdir ~/Documents ~/Pictures ~/Downloads ~/Desktop ~/Videos ~/.config/alacritty
 
 cp Space.png ~/Pictures/Space.png
 
-cp -r polybar ~.config/polybar
+cp -r polybar ~/.config/
 
 cp -r xmonadfiles/scripts ~/.xmonad/scripts
 cp xmonadfiles/xmonad.hs ~/.xmonad/xmonad.hs
