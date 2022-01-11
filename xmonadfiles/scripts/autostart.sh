@@ -29,14 +29,12 @@ xsetroot -cursor_name left_ptr &
 #run dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 
 #Some ways to set your wallpaper besides variety or nitrogen
-feh --bg-fill /usr/share/backgrounds/arcolinux/Space.png &
+feh --bg-fill ~/Pictures/Space.png &
 #start the conky to learn the shortcuts
 #(conky -c $HOME/.xmonad/scripts/system-overview) &
 
 #starting utility applications at boot time
 #run variety &
-run nm-applet &
-run pamac-tray &
 run xfce4-power-manager &
 #run volumeicon &
 numlockx on &
@@ -47,7 +45,7 @@ picom --config $HOME/.xmonad/scripts/picom.conf &
 
 #starting user applications at boot time
 #nitrogen --restore &
-run caffeine &
+#run caffeine &
 #run vivaldi-stable &
 #run firefox &
 #run thunar &

@@ -3,13 +3,11 @@ arandr
 awesome-terminal-fonts
 base-devel
 bat
-brave-bin
 feh
 haskell-dbus
 htop
 man
 neofetch
-nm-applet
 pavucontrol
 picom
 rofi
