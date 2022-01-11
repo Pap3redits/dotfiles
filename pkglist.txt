@@ -36,3 +36,12 @@ thunar-archive-plugin
 emacs
 arc-gtk-theme
 sddm
+net-tools
+nvidia-utils
+opencl-nvidia
+nvidia
+nvidia-settings
+pulseaudio
+pulseaudio-alsa
+pulsemixer
+google-chrome
