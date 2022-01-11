@@ -33,4 +33,6 @@ piper
 ripgrep
 starship
 thunar-archive-plugin
-
+emacs
+arc-gtk-theme
+sddm

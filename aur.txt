@@ -7,3 +7,4 @@ optimus-manger
 proton-community-updater
 spotify
 timeshift
+brave-bin
