@@ -44,4 +44,3 @@ nvidia-settings
 pulseaudio
 pulseaudio-alsa
 pulsemixer
-google-chrome

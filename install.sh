@@ -1,8 +1,9 @@
 #!/bin/bash
 
+sudo -Syu
 sudo cp pacman.conf /etc/
 
-#sudo pacman -Syyu
+sudo pacman -Syyu
 sudo pacman -S --needed - < pkglist.txt
 
 mkdir  ~/Documents ~/Pictures ~/Downloads ~/Desktop ~/Videos  ~/.xmonad
@@ -12,8 +13,8 @@ sudo systemctl enable sshd
 pulseaudio --start
 
 cp Space.png ~/Pictures/Space.png
-cp .config ~/.config
-cp .xmonad ~/.config
+cp -r .config ~/.config
+cp -r .xmonad ~/.xmonad
 chsh -s /bin/fish
 
 cd ~/repos
@@ -25,3 +26,7 @@ makepkg -si
 git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 cd ~/.emacs.d/bin
 ./doom install
+
+
+xmonad --recompile
+xmonad --restart
